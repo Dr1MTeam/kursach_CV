@@ -1,0 +1,5 @@
+model/res/dead_out/
+model/res/defects/
+model/res/images/
+model/res/output/
+model/yolo11m-seg.pt

@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 7
+names: ['chip', 'dead_pixel', 'lock', 'missing_key', 'missing_screw', 'other', 'scratch']
+
+roboflow:
+  workspace: detection-data-d395w
+  project: defect-detection-78144
+  version: 10
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/detection-data-d395w/defect-detection-78144/dataset/10
